@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balancezone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">Balancezone</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class="text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="Dumbbell">
+                        </div>
+                        <h1 class="my-1 text-center">Transform Your Fitness Journey with Us</h1>
+                        <p class="text-center">Join us at Balancezone, where we blend cutting-edge equipment with personalized training to help you reach your fitness goals. Whether you're just starting out or are a seasoned athlete, our expert trainers and state-of-the-art facilities are here to support you every step of the way. Discover a community dedicated to your well-being and achieve results like never before.</p>
+                        <p class="deal text-center">Limited Time Offer: Sign up now and get 20% off your first month! The deal ends in <span id="demo"></span></p>
+                        <div class="buttons">
+                            <button class="btn">Join Now</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.png" alt="Gym Interior">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Our Membership Plans</h1>
+                <p class="my-2">Explore our membership options designed to fit various needs and budgets. From basic access to exclusive perks, our plans are tailored to help you achieve your fitness aspirations. Choose the one that best aligns with your goals and start your journey with us today!</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Basic</h2>
+                        <ul>
+                            <li class="highlighted">₹0/month</li>
+                            <li>Access to gym equipment</li>
+                            <li>1 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Get Started</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Standard</h2>
+                        <ul>
+                            <li class="highlighted">₹150/month</li>
+                            <li>Access to gym equipment</li>
+                            <li>5 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Sign Up</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Premium</h2>
+                        <ul>
+                            <li class="highlighted">₹500/month</li>
+                            <li>Access to gym equipment and classes</li>
+                            <li>10 GB of storage</li>
+                            <li>Personalized support</li>
+                            <li>Exclusive access to events</li>
+                            <li><button class="btn">Join Today</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Plan Comparison</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Basic</th>
+                                <th>Standard</th>
+                                <th>Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Access to Equipment</th>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Storage</th>
+                                <td>1 GB</td>
+                                <td>5 GB</td>
+                                <td>10 GB</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Support</th>
+                                <td>Email</td>
+                                <td>Priority Email</td>
+                                <td>Personalized</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Exclusive Events</th>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Class Access</th>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Yes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; Balancezone.com | All rights reserved
+        </footer>
+    </div>
+</body>
+
+</html>

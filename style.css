@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+.items-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 1rem; /* Space below header */
+}
+.navbar {
+    display: flex;
+    height: 67px;
+    align-items: center;
+}
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.logo {
+    font-size: 1.3rem;
+    color: rgb(227, 74, 56);
+    font-weight: bolder;
+}
+
+.section1 {
+    position: relative;
+    padding: 20px; 
+}
+.section1 h1 {
+    color: #37110d;
+    font-size: 2rem;
+}
+.dumbellimg, .gymimg {
+    max-width: 100%; 
+    height: auto; 
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+.deal {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 20px 0; 
+    padding: 10px; 
+    clear: both; 
+}
+
+.section2 {
+    padding: 73px;
+}
+.section2 h1 {
+    font-size: 2.3rem;
+}
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul {
+    list-style-type: none;
+}
+.box ul li {
+    margin: 12px 2px;
+}
+
+.section3 {
+    padding: 73px;
+}
+.section3 h1 {
+    font-size: 2.3rem;
+}
+.section3 .table {
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th, .section3 table td {
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+.section3 table th {
+    width: 23vw;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    background-color: #f1f1f1; /* Optional: Add background color for visibility */
+}
+
+.btn {
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227, 74, 56);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.btn:hover {
+    background-color: rgb(177, 57, 40); /* Darker shade on hover */
+    border-color: rgb(177, 57, 40);
+}
+
+.text-center {
+    text-align: center;
+}
+.text-blue {
+    color: rgb(227, 74, 56);
+}
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .section1 {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    .deal {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .section1 {
+        padding: 15px; /* Further adjust padding for very small screens */
+    }
+    .deal {
+        font-size: 0.9rem; /* Further adjust font size */
+        margin: 10px 0;
+    }
+}
